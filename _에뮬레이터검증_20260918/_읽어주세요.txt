@@ -1,0 +1,18 @@
+⚠ 이 폴더의 파일은 실제 측정값이 아닙니다.
+
+에뮬레이터(medium_phone, Android)에서 FakeDataSource 로 만든 가상 데이터를
+앱이 export 한 결과입니다. night / epoch_idx 규격이 맞는지 확인하려고 남겨둔
+증거 자료입니다.
+
+- 연구·학습·보고의 데이터로 절대 사용하지 마세요.
+- meta.json 의 "source" 값이 "fake" 입니다 (실제 데이터는 "samsung").
+- 원본 export 폴더명에도 _FAKE 가 붙어 있었습니다.
+
+담은 파일
+- meta.json          : export 규격 메타데이터 (night_def / epoch_idx_def 포함)
+- epoch_30s_FAKE.csv : 30초 epoch 표 6,014행
+
+검증에 쓴 코드: ..\..\_작업\MVP_export검증.py
+검증 결과: 11항목 전부 통과 (2026-09-18)
+
+만든 날짜: 2026-09-18 (소빈)

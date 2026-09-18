@@ -1,0 +1,16 @@
+{
+  "subject_id": "sobin01",
+  "source": "fake",
+  "exported_at": "2026-09-18T09:23:22+0000",
+  "timezone": "GMT",
+  "epoch_seconds": 30,
+  "night_def": "그 밤이 속한 날짜 yyyyMMdd. 정오~다음날 정오를 한 밤으로 본다. 조회 범위를 바꿔도 값이 변하지 않는다.",
+  "epoch_idx_def": "night 날짜의 12:00(로컬)부터 센 30초 칸 번호. epoch_idx x 30 = 정오 기준 경과 초. 행 번호가 아니므로 다시 번호를 매기지 말 것.",
+  "stage_label_map": {"0":"W","1":"N1","2":"N2","3":"N3","4":"REM","-1":"UNKNOWN"},
+  "range": {"start": "2026-09-11T09:22:14+0000", "end": "2026-09-18T09:22:14+0000"},
+  "device": {"source_name": "Galaxy Watch5 (가상)", "device_type": "WATCH", "raw_source_id": "FAKE-WATCH-5"},
+  "counts": {"hr": 9510, "steps": 1009, "sleep_sessions": 9, "epochs": 6014},
+  "summary": {"nights": 7, "sessions": 9, "sleep_minutes": 2857, "unknown_epochs": 0, "hr_coverage": 0.463},
+  "warnings": [],
+  "note": "source 가 samsung 이 아니면 이 파일은 실제 측정값이 아닙니다. 학습에 사용하지 마세요."
+}
